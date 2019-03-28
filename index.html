@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Javascript + DOM</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<h1>Shopping List</h1>
-	<p id="first">Get it done today</p>
-	<input id="userinput" type="text" placeholder="enter items">
-	<button id="enter">Enter</button>
-	<ul>
-		<li class="bold red" random="23">Notebook</li>
-		<li>Jello</li>
-		<li>Spinach</li>
-		<li>Rice</li>
-		<li>Birthday Cake</li>
-		<li>Oranges</li>
-	</ul>
-	<script type="text/javascript" src="script.js"></script>
+	<div class="container>">
+		<h1 class="coolTitle mt-3 mb-3" >Shopping List</h1>
+		<div>	
+			<h2 id="first" class="text-center">Get it done today</h2>
+		</div>
+		
+		<div class="d-flex justify-content-center mt-3 mb-3">
+			<label class="mr-2">Enter item:</label>
+			<input class="mr-2" id="userinput" type="text">
+			<button id="enter" type="submit" class="btn btn-success">Add</button>
+		</div>
+		<div class="d-flex justify-content-center mt-3 mb-3">
+			<ul>
+				<li class="bold red" random="23">Notebook</li>
+				<li>Jello</li>
+				<li>Spinach</li>
+				<li>Rice</li>
+				<li>Birthday Cake</li>
+				<li>Oranges</li>
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>

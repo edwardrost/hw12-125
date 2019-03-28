@@ -1,0 +1,22 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "Udemy home work 12-125 (DOM manipulation, \"Shopping List\")",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardrost/hw12-125.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardrost/hw12-125/issues"
+  },
+  "homepage": "https://github.com/edwardrost/hw12-125#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

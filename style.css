@@ -1,8 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
   font-size: 40px;
-  transform: skewY(-10deg);
+/*  transform: skewY(-10deg);*/
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
@@ -20,4 +25,38 @@
 
 .done {
   text-decoration: line-through;
+}
+
+.div-input {
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+label, input {
+  height: 38px;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+ul {
+  width: 310px;
+}
+
+li {
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+li button {
+  float: right;
+  height: 30px;
+  font-size: 15px;
+  color: red;
+  background-color: transparent;
+  border-style: none;
+  vertical-align: center;
 }
